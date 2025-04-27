@@ -1,0 +1,294 @@
+@layer presets {
+    :root {
+        display: grid;
+        min-height: 100%;
+        font-family: Arial, Roboto, sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
+        white-space: pre-wrap;
+        white-space-collapse: preserve
+    }
+
+    body.w-body {
+        box-sizing: border-box;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0
+    }
+
+    div.w-box {
+        box-sizing: border-box;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        outline-width: 1px
+    }
+
+    img.w-image {
+        box-sizing: border-box;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        outline-width: 1px;
+        max-width: 100%;
+        display: block;
+        height: auto
+    }
+
+    h1.w-heading,
+    p.w-paragraph {
+        box-sizing: border-box;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        outline-width: 1px
+    }
+
+    div.w-html-embed {
+        display: contents;
+        white-space: normal;
+        white-space-collapse: collapse
+    }
+}
+
+@media all {
+    .c19h6nqn {
+        display: flex
+    }
+
+    .c1b9v5g3 {
+        align-items: center
+    }
+
+    .cmbyyrb {
+        justify-content: center
+    }
+
+    .c1q6i7yp {
+        flex-direction: column
+    }
+
+    .c2wwlta {
+        width: 100%
+    }
+
+    .c1e5gpog {
+        overflow-x: visible
+    }
+
+    .cla8mwk {
+        overflow-y: visible
+    }
+
+    .c11rz54 {
+        max-width: 1440px
+    }
+
+    .chd5vcl {
+        padding-bottom: 0vh
+    }
+
+    .c1r6otht {
+        align-items: start
+    }
+
+    .cxlz6fd {
+        background-image: url(/assets/braid_mission_bg_Mu1wLPnGbS3-GksLBie0F.png)
+    }
+
+    .c4ek2jq {
+        background-size: cover
+    }
+
+    .c1xd3hwa {
+        background-repeat: repeat
+    }
+
+    .c5uv6ym {
+        background-attachment: scroll
+    }
+
+    .cpnvxfo {
+        background-origin: border-box
+    }
+
+    .c1ie1us7 {
+        -webkit-background-clip: border-box;
+        background-clip: border-box
+    }
+
+    .c1kgmaph {
+        background-blend-mode: normal
+    }
+
+    .c1296hy9 {
+        height: auto
+    }
+
+    .c18bntr5 {
+        padding-top: 0vh
+    }
+
+    .c1yqe4oo {
+        padding-bottom: 20em
+    }
+
+    .czzf99t {
+        background-color: #18172b
+    }
+
+    .co4tule {
+        background-position: 50% 50%
+    }
+
+    .cqi6msh {
+        z-index: 0
+    }
+
+    .c1plox6f {
+        position: static
+    }
+
+    .cmi4o3v {
+        justify-content: start
+    }
+
+    .ci0y9b7 {
+        flex-direction: row
+    }
+
+    .cxbwg2a {
+        column-gap: 4em
+    }
+
+    .c1e0v1e4 {
+        row-gap: 0em
+    }
+
+    .cztu680 {
+        padding-left: 2em
+    }
+
+    .c916pka {
+        padding-right: 2em
+    }
+
+    .c3bg95g {
+        column-gap: 2em
+    }
+
+    .ct3qzwj {
+        margin-right: 0
+    }
+
+    .c1a4xdur {
+        width: auto
+    }
+
+    .c1n2dkkd {
+        width: 2em
+    }
+
+    .c9kdaao {
+        font-family: gyst-variable, sans-serif
+    }
+
+    .c1djrq1j {
+        color: #fff
+    }
+
+    .cwpf4bt {
+        font-weight: 600
+    }
+
+    .c1fn8wg6 {
+        background-color: transparent
+    }
+
+    .che412i {
+        font-size: 4em
+    }
+
+    .cj2jqs0 {
+        padding-left: 0
+    }
+
+    .c1wjermm {
+        white-space: nowrap
+    }
+
+    .c1l427qf {
+        width: 30em
+    }
+
+    .c330c5a {
+        position: absolute
+    }
+
+    .c5v9sys {
+        z-index: 1
+    }
+
+    .c3jessx {
+        bottom: 0%
+    }
+
+    .cpc34f2 {
+        top: 12em
+    }
+
+    .cv2pd45 {
+        display: block
+    }
+
+    .c9s52oh {
+        right: 0
+    }
+
+    .c1f4z2tz {
+        height: 0%
+    }
+
+    .c17qf30k {
+        left: 8em
+    }
+
+    .c1o3ze8e {
+        font-size: 1.5em
+    }
+
+    .c93mw4b {
+        font-family: Roboto, sans-serif
+    }
+
+    .c16mo8u2 {
+        top: 48em
+    }
+
+    .cwuurn9 {
+        right: 0%
+    }
+
+    .c695ai4 {
+        left: 58em
+    }
+
+    .c3qutiq {
+        text-align: center
+    }
+
+    .c1r3nqii {
+        text-wrap: balance
+    }
+
+    .czyzy00 {
+        display: none
+    }
+}
