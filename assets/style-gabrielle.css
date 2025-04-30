@@ -13,7 +13,7 @@ body {
 .stats-container {
     
     background-color: black;
-    background-image: url("assets/Stats:Quotes Section/Top\ braid\ with\ hands.svg"), url("assets/Stats:Quotes Section/Bottom\ braid.svg");
+    background-image: url("assets/Stats_Quotes-Section/Top braid with hands.png"), url("assets/Stats_Quotes-Section/Bottom braid.png");
     background-position: right top, right bottom;
     background-repeat: no-repeat;
     background-size: 1440px;
@@ -24,7 +24,7 @@ body {
 
 .stats-content {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 }
 
 p {
@@ -62,7 +62,7 @@ h2.title {
     font-family: gyst-variable;
     font-size: 96px;
     padding: 470px 0px 0px 24px;
-    width: 64%;
+    width: 74%;
     text-align: right;
 }
 
@@ -89,7 +89,7 @@ h2.title {
 .quotes-1 {
     display: block;
     width: 275px;
-    padding: 200px 12px 0px 12px;
+    padding: 200px 12px 0px 200px;
 }
 
 .quotes-4 {
@@ -101,7 +101,7 @@ h2.title {
 .quotes-3 {
     display: block;
     width: 300px;
-    padding: 450px 48px 0px 0px;
+    padding: 450px 48px 0px 200px;
 }
 
 .contact{
