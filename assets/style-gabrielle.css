@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/oeu6cui.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.stats-container {
+    
+    background-color: black;
+    background-image: url("assets/Stats:Quotes Section/Top\ braid\ with\ hands.svg"), url("assets/Stats:Quotes Section/Bottom\ braid.svg");
+    background-position: right top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 1440px;
+    width: 1440px;
+    height: 345vh;
+    text-align: center;
+}
+
+.stats-content {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+p {
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    display: inline-block;
+}
+
+span.highlight {
+    color: #C8BCF6;
+    font-family: gyst-variable;
+    font-size: 64px;
+}
+
+h2 {
+    color: white;
+    font-family: gyst-variable;
+    font-size: 64px;
+}
+
+h2.title {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.stat-1 {
+    margin: 0 auto;
+    padding: 192px 0px 0px 48px;
+    width: 415px;
+}
+
+.accent-title {
+    color: white;
+    font-family: gyst-variable;
+    font-size: 96px;
+    padding: 470px 0px 0px 24px;
+    width: 64%;
+    text-align: right;
+}
+
+.stat-2 {
+    padding: 745px 96px 0px 0px;
+    width: 427px;
+    margin: 10px 0px;
+}
+
+.quotemarks-left {
+    float: left;
+}
+
+.quotemarks-right {
+    float: right;
+}
+
+.quotes-2 {
+    display: block;
+    width: 500px;
+    padding: 300px 96px 0px 96px;
+}
+
+.quotes-1 {
+    display: block;
+    width: 275px;
+    padding: 200px 12px 0px 12px;
+}
+
+.quotes-4 {
+    display: block;
+    width: 900px;
+    padding: 450px 96px 0px 48px;
+}
+
+.quotes-3 {
+    display: block;
+    width: 300px;
+    padding: 450px 48px 0px 0px;
+}
+
+.contact{
+    background-color: #C8BCF6;
+    width: 1440px;
+    padding: 200px 0;
+    align-content: center;
+    font: black;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 36px;
+}
+
+.team-photo img {
+    float: left;
+    width: 85%;
+    margin-top: 24px;
+}
+
+.contact h2, .contact label, .contact p {
+    color: black;
+}
+
+.contact h2{
+    padding-bottom: 24px;
+}
+
+.linkedin {
+    filter: invert(100%);
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    font-family: Roboto;
+    font-size: 24px;
+    padding: 48px 0px;
+}
+
+.contact-left{
+    width: 80%;
+    float: left;
+}
+.contact-right {
+    width: 50%;
+    float: left;
+    padding: 24px 0px;
+}
+
+.contact-right p {
+    padding: 24px 0px;
+}
+
+.socials {
+    margin-top: 36px;
+}
+
+a img {
+    margin: 6px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+input[type="submit"] {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 24px;
+}
