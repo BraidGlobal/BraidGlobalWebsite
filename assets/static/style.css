@@ -197,7 +197,7 @@
     }
     
     .top-12em {
-        top: 12em
+        top: 8em
     }
     
     .top-48em {
@@ -333,7 +333,7 @@
     }
     
     .bg-mission {
-        background-image: url(/assets/braid_mission_bg_Mu1wLPnGbS3-GksLBie0F.png)
+        background-image: url("/assets/braid_mission_bg_Mu1wLPnGbS3-GksLBie0F.png")
     }
     
     .bg-size-auto {

@@ -53,7 +53,7 @@ h2.title {
 
 .stat-1 {
     margin: 0 auto;
-    padding: 192px 0px 0px 48px;
+    padding: 120px 0px 0px 25px;
     width: 415px;
 }
 
@@ -61,13 +61,13 @@ h2.title {
     color: white;
     font-family: gyst-variable;
     font-size: 96px;
-    padding: 470px 0px 0px 24px;
+    padding: 370px 0px 0px 24px;
     width: 74%;
     text-align: right;
 }
 
 .stat-2 {
-    padding: 745px 96px 0px 0px;
+    padding: 680px 96px 0px 120px;
     width: 427px;
     margin: 10px 0px;
 }
@@ -89,13 +89,13 @@ h2.title {
 .quotes-1 {
     display: block;
     width: 275px;
-    padding: 200px 12px 0px 200px;
+    padding: 100px 12px 0px 200px;
 }
 
 .quotes-4 {
     display: block;
     width: 900px;
-    padding: 450px 96px 0px 48px;
+    padding: 370px 96px 0px 48px;
 }
 
 .quotes-3 {
@@ -117,13 +117,13 @@ h2.title {
 .contact-content {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0px 36px;
+    padding: 0px 30px;
 }
 
 .team-photo img {
     float: left;
     width: 85%;
-    margin-top: 24px;
+    
 }
 
 .contact h2, .contact label, .contact p {
@@ -152,6 +152,7 @@ label {
 .contact-left{
     width: 80%;
     float: left;
+    margin: 0;
 }
 .contact-right {
     width: 50%;
@@ -165,6 +166,7 @@ label {
 
 .socials {
     margin-top: 36px;
+    flex-direction: row;
 }
 
 a img {
