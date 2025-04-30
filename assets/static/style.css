@@ -457,5 +457,14 @@
     .block {
         display: block
     }
+
+    .hero-overlay-video {
+        /* clip-path: path("M0,300 C50,50 400,0 720,50 C1040,100 1390,50 1440,300 L1440,0 L0,0 Z"); */
+        /* -webkit-clip-path: path("M0,300 C50,50 400,0 720,50 C1040,100 1390,50 1440,300 L1440,0 L0,0 Z"); */
+      }
+    
+      .overlay-layer {
+        background: rgba(0, 0, 0, 0.5); /* adjust opacity as needed */
+      }
 }
 
