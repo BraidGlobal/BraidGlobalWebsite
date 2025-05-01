@@ -53,8 +53,8 @@ h2.title {
     width: 415px;
 
     opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
 }
 
 .visible {
@@ -75,6 +75,15 @@ h2.title {
     padding: 680px 96px 0px 120px;
     width: 427px;
     margin: 10px 0px;
+
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+.visible1 {
+    opacity: 1;
+    transform: none;
 }
 
 .quotemarks-left {
@@ -89,24 +98,60 @@ h2.title {
     display: block;
     width: 500px;
     padding: 300px 96px 0px 96px;
+
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+.visible3 {
+    opacity: 1;
+    transform: none;
 }
 
 .quotes-1 {
     display: block;
     width: 275px;
     padding: 100px 12px 0px 200px;
+
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+.visible2 {
+    opacity: 1;
+    transform: none;
 }
 
 .quotes-4 {
     display: block;
     width: 900px;
     padding: 370px 96px 0px 48px;
+
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+.visible5 {
+    opacity: 1;
+    transform: none;
 }
 
 .quotes-3 {
     display: block;
     width: 300px;
     padding: 450px 48px 0px 200px;
+
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+.visible4 {
+    opacity: 1;
+    transform: none;
 }
 
 .contact{
