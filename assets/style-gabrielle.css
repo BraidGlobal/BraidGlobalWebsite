@@ -75,6 +75,15 @@ h2.title {
     padding: 680px 96px 0px 120px;
     width: 427px;
     margin: 10px 0px;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.visible1 {
+    opacity: 1;
+    transform: none;
 }
 
 .quotemarks-left {
