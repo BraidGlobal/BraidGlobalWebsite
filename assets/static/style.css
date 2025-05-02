@@ -8,7 +8,7 @@
         font-size: 16px;
         line-height: 1.2;
         white-space: pre-wrap;
-        white-space-collapse: preserve
+        white-space-collapse: preserve;
     }
 
     body{
@@ -24,7 +24,7 @@
         border-width: 1px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        margin: 0
+        margin: 0;
     }
 
     div.html-content {
@@ -46,21 +46,21 @@
         outline-width: 1px;
         max-width: 100%;
         display: block;
-        height: auto
+        height: auto;
     }
 
     h1.heading-style,
     h2.heading-style {
         box-sizing: border-box;
         border-width: 1px;
-        outline-width: 1px
+        outline-width: 1px;
     }
 
     a.link-block {
         box-sizing: border-box;
         border-width: 1px;
         outline-width: 1px;
-        display: inline-block
+        display: inline-block;
     }
 }
 
@@ -69,195 +69,195 @@
 
     /* Display and Layout */
     .hidden {
-        display: none
+        display: none;
     }
     
     .full-width {
-        width: 100%
+        width: 100%;
     }
     
     .width-60-percent {
-        width: 60%
+        width: 60%;
     }
     
     .width-auto {
-        width: auto
+        width: auto;
     }
     
     .width-30em {
-        width: 30em
+        width: 30em;
     }
     
     .width-2em {
-        width: 2em
+        width: 2em;
     }
     
     .max-width-1440 {
-        max-width: 1440px
+        max-width: 1440px;
     }
     
     .max-width-100 {
-        max-width: 100%
+        max-width: 100%;
     }
     
     .height-auto {
-        height: auto
+        height: auto;
     }
     
     .height-0-percent {
-        height: 0%
+        height: 0%;
     }
 
     /* Flex Properties */
     .flex {
-        display: flex
+        display: flex;
     }
     
     .flex-row {
-        flex-direction: row
+        flex-direction: row;
     }
     
     .flex-column {
-        flex-direction: column
+        flex-direction: column;
     }
     
     .align-center {
-        align-items: center
+        align-items: center;
     }
     
     .align-start {
-        align-items: start
+        align-items: start;
     }
     
     .align-self-center {
-        align-self: center
+        align-self: center;
     }
     
     .align-self-end {
-        align-self: flex-end
+        align-self: flex-end;
     }
     
     .justify-center {
-        justify-content: center
+        justify-content: center;
     }
     
     .justify-end {
-        justify-content: end
+        justify-content: end;
     }
     
     .justify-start {
-        justify-content: start
+        justify-content: start;
     }
     
     .gap-row-2em {
-        row-gap: 2em
+        row-gap: 2em;
     }
     
     .gap-row-0 {
-        row-gap: 0em
+        row-gap: 0em;
     }
     
     .gap-col-0 {
-        column-gap: 0em
+        column-gap: 0em;
     }
     
     .gap-col-2em {
-        column-gap: 2em
+        column-gap: 2em;
     }
     
     .gap-col-4em {
-        column-gap: 4em
+        column-gap: 4em;
     }
 
     /* Positioning */
     .pos-absolute {
-        position: absolute
+        position: absolute;
     }
 
     .pos-relative{
-        position: relative
+        position: relative;
     }
     
     .pos-static {
-        position: static
+        position: static;
     }
     
     .top-0 {
-        top: 0
+        top: 0;
     }
     
     .left-0 {
-        left: 0
+        left: 0;
     }
     
     .right-0 {
-        right: 0
+        right: 0;
     }
     
     .bottom-0-percent {
-        bottom: 0%
+        bottom: 0%;
     }
     
     .top-12em {
-        top: 8em
+        top: 8em;
     }
     
     .top-48em {
-        top: 48em
+        top: 48em;
     }
     
     .right-0-percent {
-        right: 0%
+        right: 0%;
     }
     
     .left-8em {
-        left: 8em
+        left: 8em;
     }
     
     .left-58em {
-        left: 58em
+        left: 58em;
     }
     
     .z-index-0 {
-        z-index: 0
+        z-index: 0;
     }
     
     .z-index-1 {
-        z-index: 1
+        z-index: 1;
     }
 
     /* Overflow */
     .overflow-x-hidden {
-        overflow-x: hidden
+        overflow-x: hidden;
     }
     
     .overflow-y-hidden {
-        overflow-y: hidden
+        overflow-y: hidden;
     }
     
     .overflow-x-visible {
-        overflow-x: visible
+        overflow-x: visible;
     }
     
     .overflow-y-visible {
-        overflow-y: visible
+        overflow-y: visible;
     }
 
     /* Margins */
     .margin-left-0 {
-        margin-left: 0
+        margin-left: 0;
     }
     
     .margin-top-0 {
-        margin-top: 0
+        margin-top: 0;
     }
     
     .margin-bottom-0 {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
     
     .margin-right-0 {
-        margin-right: 0
+        margin-right: 0;
     } 
 
     .margin-left-1em{
@@ -270,182 +270,182 @@
 
     /* Padding */
     .padding-top-6em {
-        padding-top: 6em
+        padding-top: 6em;
     }
     
     .padding-bottom-3em {
-        padding-bottom: 3em
+        padding-bottom: 3em;
     }
     
     .padding-left-6em {
-        padding-left: 6em
+        padding-left: 6em;
     }
     
     .padding-left-0 {
-        padding-left: 0
+        padding-left: 0;
     }
     
     .padding-right-2em {
-        padding-right: 2em
+        padding-right: 2em;
     }
     
     .padding-left-2em {
-        padding-left: 2em
+        padding-left: 2em;
     }
     
     .padding-top-half-em {
-        padding-top: .5em
+        padding-top: .5em;
     }
     
     .padding-bottom-half-em {
-        padding-bottom: .5em
+        padding-bottom: .5em;
     }
     
     .padding-left-three-quarter-em {
-        padding-left: .75em
+        padding-left: .75em;
     }
     
     .padding-right-three-quarter-em {
-        padding-right: .75em
+        padding-right: .75em;
     }
     
     .padding-top-0vh {
-        padding-top: 0vh
+        padding-top: 0vh;
     }
     
     .padding-bottom-0vh {
-        padding-bottom: 0vh
+        padding-bottom: 0vh;
     }
     
     .padding-bottom-20em {
-        padding-bottom: 20em
+        padding-bottom: 20em;
     }
 
     /* Background */
     .bg-light-gray {
-        background-color: #e6e6e6
+        background-color: #e6e6e6;
     }
     
     .bg-black {
-        background-color: #000
+        background-color: #000;
     }
     
     .bg-transparent {
-        background-color: transparent
+        background-color: transparent;
     }
     
     .bg-dark-blue {
-        background-color: #18172b
+        background-color: #18172b;
     }
     
     .bg-gradient-light-to-dark {
-        background-image: linear-gradient(to bottom right, #fff, #0000 50%, #000 200%)
+        background-image: linear-gradient(to bottom right, #fff, #0000 50%, #000 200%);
     }
     
     .bg-mission {
-        background-image: url("/assets/braid_mission_bg_Mu1wLPnGbS3-GksLBie0F.png")
+        background-image: url("/assets/braid_mission_bg_Mu1wLPnGbS3-GksLBie0F.png");
     }
     
     .bg-size-auto {
-        background-size: auto auto
+        background-size: auto auto;
     }
     
     .bg-size-cover {
-        background-size: cover
+        background-size: cover;
     }
     
     .bg-repeat {
-        background-repeat: repeat
+        background-repeat: repeat;
     }
     
     .bg-scroll {
-        background-attachment: scroll
+        background-attachment: scroll;
     }
     
     .bg-origin-padding {
-        background-origin: padding-box
+        background-origin: padding-box;
     }
     
     .bg-origin-border {
-        background-origin: border-box
+        background-origin: border-box;
     }
     
     .bg-clip-border {
         -webkit-background-clip: border-box;
-        background-clip: border-box
+        background-clip: border-box;
     }
     
     .bg-blend-normal {
-        background-blend-mode: normal
+        background-blend-mode: normal;
     }
     
     .bg-position-center {
-        background-position: 50% 50%
+        background-position: 50% 50%;
     }
 
     /* Typography */
     .font-gyst {
-        font-family: gyst-variable, sans-serif
+        font-family: gyst-variable, sans-serif;
     }
     
     .font-roboto {
-        font-family: Roboto, sans-serif
+        font-family: Roboto, sans-serif;
     }
     
     .font-size-6em {
-        font-size: 6em
+        font-size: 6em;
     }
     
     .font-size-2em {
-        font-size: 2em
+        font-size: 2em;
     }
     
     .font-size-1-75em {
-        font-size: 1.75em
+        font-size: 1.75em;
     }
     
     .font-size-4em {
-        font-size: 4em
+        font-size: 4em;
     }
     
     .font-size-1-5em {
-        font-size: 1.5em
+        font-size: 1.5em;
     }
     
     .font-weight-400 {
-        font-weight: 400
+        font-weight: 400;
     }
     
     .font-weight-500 {
-        font-weight: 500
+        font-weight: 500;
     }
     
     .font-weight-600 {
-        font-weight: 600
+        font-weight: 600;
     }
     
     .text-color-white {
-        color: #fff
+        color: #fff;
     }
     
     .text-decoration-none {
-        text-decoration-line: none
+        text-decoration-line: none;
     }
     
     .text-align-center {
-        text-align: center
+        text-align: center;
     }
 
     .text-align-left{
-        text-align: left
+        text-align: left;
     }
     
     .text-wrap-nowrap {
-        white-space: nowrap
+        white-space: nowrap;
     }
     
     .text-wrap-balance {
-        text-wrap: balance
+        text-wrap: balance;
     }
 
     /* Border */
@@ -453,19 +453,19 @@
         border-top-color: transparent;
         border-right-color: transparent;
         border-bottom-color: transparent;
-        border-left-color: transparent
+        border-left-color: transparent;
     }
     
     .border-radius-1-2em {
         border-top-left-radius: 1.2em;
         border-top-right-radius: 1.2em;
         border-bottom-left-radius: 1.2em;
-        border-bottom-right-radius: 1.2em
+        border-bottom-right-radius: 1.2em;
     }
 
     /* Display */
     .block {
-        display: block
+        display: block;
     }
 }
 
