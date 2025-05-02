@@ -1,3 +1,47 @@
+.Our-Story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    padding: 10em 2em 10em 2em; 
+
+    max-width: 1378px;
+    background-image: url('assets/Purple-White_\ Gradient.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.OSL, .OSR {
+    flex: 1;
+    max-width: 1400px;
+}
+
+.OSLS {
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: bold;
+    text-align: left;
+
+    padding: 0 0 0 150;
+
+    color: white;
+    font-family: gyst-variable;
+}
+  
+.OSLT {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: left;
+    max-width: 1400px;
+
+    padding: 30 150 0 0;
+
+    color: white;
+    font-weight: 380;
+}
+
+
 .Team-Sect{
     margin: 0;
     padding: 100 60 100 0;
@@ -164,7 +208,7 @@
 
 .Char:hover .hover-text {
     opacity: 1;
-    max-height: 100px;
+    height: 100px;
     max-width: 400px;
 }
 
