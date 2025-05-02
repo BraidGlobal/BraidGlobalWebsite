@@ -139,7 +139,7 @@
 
 .hover-text {
     position: absolute;
-    top: 0;
+    top: 20;
     left: 105%;
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
@@ -154,7 +154,7 @@
 
 .hover-text-left {
     position: absolute;
-    top: -15;
+    top: 20;
     left: 105%;
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
@@ -188,19 +188,19 @@
   
 /* Hover Img */
 .Arey:hover img {
-    width: 315px;
+    width: 320px;
 }
 
 .Char:hover img {
-    width: 315px;
+    width: 320px;
 }
 
 .Tai:hover img {
-    width: 315px;
+    width: 320px;
 }
 
 .Alyssa:hover img {
-    width: 315px;
+    width: 320px;
 }
   
 /* Hover text */
