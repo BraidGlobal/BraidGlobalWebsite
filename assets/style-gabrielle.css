@@ -157,7 +157,7 @@ h2.title {
 .contact{
     background-color: #C8BCF6;
     width: 1440px;
-    padding: 200px 0;
+    padding-top: 150px;
     align-content: center;
     font: black;
     display: flex;
@@ -177,15 +177,10 @@ h2.title {
 .team-photo img {
     float: left;
     width: 85%;
-    
 }
 
 .contact h2, .contact label, .contact p {
     color: black;
-}
-
-.contact h2{
-    padding-bottom: 24px;
 }
 
 .linkedin {
@@ -204,7 +199,7 @@ fieldset {
     height: 100%;
     border: none;
 
-    gap: 2em;
+    gap: 0.5em;
 }
 
 label {
@@ -223,7 +218,7 @@ label {
     justify-content: flex-start;
     gap: 1em;
     width: 50%;
-    padding: 24px 0px;
+    padding: 40px 0px;
 }
 
 .contact-right p {
@@ -259,4 +254,27 @@ input[type="submit"] {
 input[type="text"] {
     width: 100%;
     height: 24px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em 1em 1em;
+    align-items: center;
+}
+
+.footer-logo {
+    padding: 0em 5%;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16%;
+}
+
+.socials {
+    margin-bottom: 1em;
 }
