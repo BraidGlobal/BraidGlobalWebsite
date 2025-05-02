@@ -20,11 +20,15 @@
 
 .team{
     color: white;
-    font-size: 24px;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .team-text{
-    font-size: 16px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Section */
@@ -100,6 +104,23 @@
     z-index: 10;
 }
 
+.hover-text-left {
+    position: absolute;
+    top: 0;
+    left: 105%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 600px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+
+    left: -440px;
+}
+
 /* Hover */
 .Arey:hover {
     z-index: 10;
@@ -147,14 +168,18 @@
     max-width: 400px;
 }
 
-.Tai:hover .hover-text {
+.Tai:hover .hover-text-left {
     opacity: 1;
     max-height: 100px;
     max-width: 400px;
+
+    left: -440px;
 }
 
-.Alyssa:hover .hover-text {
+.Alyssa:hover .hover-text-left {
     opacity: 1;
     max-height: 100px;
     max-width: 400px;
+
+    left: -440px;
 }
