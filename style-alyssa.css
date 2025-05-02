@@ -14,8 +14,17 @@
 
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
     position: relative;
+}
+
+.team{
+    color: white;
+    font-size: 24px;
+}
+
+.team-text{
+    font-size: 16px;
 }
 
 /* Section */
@@ -84,7 +93,7 @@
     color: white;
     padding: 1em;
     border-radius: 0.5em;
-    width: 200px;
+    width: 600px;
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
@@ -93,19 +102,19 @@
 
 /* Hover */
 .Arey:hover {
-    z-index: 20;
+    z-index: 10;
 }
 
 .Char:hover {
-    z-index: 20;
+    z-index: 10;
 }
 
 .Tai:hover {
-    z-index: 20;
+    z-index: 10;
 }
 
 .Alyssa:hover {
-    z-index: 20;
+    z-index: 10;
 }
   
 /* Hover Img */
@@ -128,16 +137,24 @@
 /* Hover text */
 .Arey:hover .hover-text {
     opacity: 1;
+    max-height: 100px;
+    max-width: 400px;
 }
 
 .Char:hover .hover-text {
     opacity: 1;
+    max-height: 100px;
+    max-width: 400px;
 }
 
 .Tai:hover .hover-text {
     opacity: 1;
+    max-height: 100px;
+    max-width: 400px;
 }
 
 .Alyssa:hover .hover-text {
     opacity: 1;
+    max-height: 100px;
+    max-width: 400px;
 }
