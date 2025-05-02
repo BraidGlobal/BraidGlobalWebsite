@@ -1,6 +1,6 @@
 .Team-Sect{
     margin: 0;
-    padding: 100 20 100 0;
+    padding: 100 60 100 0;
     max-width: 1440px;
 
     background-color: black;
@@ -11,4 +11,133 @@
 
     align-items: end;
     justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    position: relative;
+}
+
+/* Section */
+.Arey {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.Char {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.Tai {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.Alyssa {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+/* Img */
+.Arey img {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease;
+    display: block;
+}
+
+.Char img {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease;
+    display: block;
+}
+
+.Tai img {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease;
+    display: block;
+}
+
+.Alyssa img {
+    width: 200px;
+    height: auto;
+    transition: width 0.3s ease;
+    display: block;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 105%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Hover */
+.Arey:hover {
+    z-index: 20;
+}
+
+.Char:hover {
+    z-index: 20;
+}
+
+.Tai:hover {
+    z-index: 20;
+}
+
+.Alyssa:hover {
+    z-index: 20;
+}
+  
+/* Hover Img */
+.Arey:hover img {
+    width: 345px;
+}
+
+.Char:hover img {
+    width: 345px;
+}
+
+.Tai:hover img {
+    width: 345px;
+}
+
+.Alyssa:hover img {
+    width: 345px;
+}
+  
+/* Hover text */
+.Arey:hover .hover-text {
+    opacity: 1;
+}
+
+.Char:hover .hover-text {
+    opacity: 1;
+}
+
+.Tai:hover .hover-text {
+    opacity: 1;
+}
+
+.Alyssa:hover .hover-text {
+    opacity: 1;
 }
