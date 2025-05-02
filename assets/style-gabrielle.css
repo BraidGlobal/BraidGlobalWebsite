@@ -5,6 +5,7 @@
 
 body {
     background-color: white;
+
 }
 
 .stats-container {
@@ -37,7 +38,7 @@ span.highlight {
 }
 
 h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: gyst-variable;
     font-size: 64px;
 }
@@ -63,7 +64,7 @@ h2.title {
 }
 
 .accent-title {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: gyst-variable;
     font-size: 96px;
     padding: 370px 0px 0px 24px;

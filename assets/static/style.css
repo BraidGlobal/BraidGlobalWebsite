@@ -16,6 +16,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+  
     }
 
     body.base-body {
@@ -35,7 +36,8 @@
     div.box-container {
         box-sizing: border-box;
         border-width: 1px;
-        outline-width: 1px
+        outline-width: 1px;
+ 
     }
 
     img.responsive-image {
