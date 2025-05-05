@@ -107,6 +107,7 @@
     padding: 0;
 }
 
+
 /* Section */
 .Arey {
     position: relative;
@@ -135,6 +136,7 @@
     transition: transform 0.3s ease;
     z-index: 0;
 }
+
 
 /* Img */
 .Arey img {
@@ -197,6 +199,7 @@
     left: -440px;
 }
 
+
 /* Hover */
 .Arey:hover {
     z-index: 10;
@@ -214,6 +217,7 @@
     z-index: 10;
 }
   
+
 /* Hover Img */
 .Arey:hover img {
     width: 320px;
@@ -266,40 +270,45 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-  }
-  .bg-video {
+}
+
+.bg-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     z-index: 1;
-  }
-  .overlay {
+}
+
+.overlay {
     position: relative;
     z-index: 2;
     color: white;
     text-align: center;
     padding-top: 8%;
-  }
-  .overlay h1 {
+}
+
+.overlay h1 {
     font-size: 4rem;
     font-weight: 300;
-  }
-  .braid-b {
+}
+
+.braid-b {
     font-weight: bold;
     font-size: 5rem;
     font-family: cursive;
     background: linear-gradient(#fff, #ccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  .overlay p {
+}
+
+.overlay p {
     font-size: 1.25rem;
     margin-top: 0.5rem;
-  }
+}
   
-  /* Scroll button */
-  .scroll-down {
+/* Scroll button */
+.scroll-down {
     position: absolute;
     bottom: -20px;
     left: 70%;
@@ -315,38 +324,43 @@
     font-family: gyst-variable;
     font-weight: bold;
     font-size: 20px;
-  }
+}
   
-  /* About section */
-  .about-section {
+
+/* About section */
+.about-section {
     background: #0d0e3f;
     color: white;
     padding: 5rem 2rem;
     clip-path: ellipse(100% 100% at 50% 0%);
-  }
-  .about-content {
+}
+
+.about-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-  }
-  .about-content h2 {
+}
+
+.about-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  .about-content p {
+}
+
+.about-content p {
     max-width: 600px;
     text-align: center;
     font-size: 1.1rem;
-  }
-  .video-container video {
+}
+
+.video-container video {
     width: 100%;
     max-width: 500px;
     border-radius: 1rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  }
+}
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .about-content {
       flex-direction: row;
       justify-content: center;
@@ -359,4 +373,4 @@
     .video-container {
       flex: 1;
     }
-  }
+}
